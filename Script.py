@@ -11,7 +11,10 @@ class script(object):
 Query: More movies, web-series in hindi [Get Here](https://t.me/HDSX_Media_xyz)
 
 
-sɪᴢᴇ ⚙️: {file_size} </b>""" 
+sɪᴢᴇ ⚙️: {file_size} 
+
+File ko phle kahi forward kr le, kyunki file 15 minute me delete ho jayegi copyright ki wajah se.
+</b>""" 
 
 
 
