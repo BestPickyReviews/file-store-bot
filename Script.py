@@ -8,10 +8,8 @@ class script(object):
     
     CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
 
-
 ғɪʟᴇsɪᴢᴇ ⚙️: {file_size} 
 
-Query: More movies, web-series in hindi [Get Here](https://t.me/HDSX_Media_xyz)
 </b>""" 
 
 
