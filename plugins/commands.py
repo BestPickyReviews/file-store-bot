@@ -212,7 +212,7 @@ async def start(client, message):
             await msg.edit_caption(f_caption) 
             
             
-            g = await msg.reply_text(
+            g = await message.reply(
                 text=f"<b><u>❗️❗️❗️❗️IMPORTANT NOTE❗️️❗️❗️❗️</u></b>\n\n<b>ᴛʜɪs ᴍᴏᴠɪᴇ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ </b><b><u>{AUTO_DELETE} mins</u>. 🫥 </b> (ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs) ᴘʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜɪs ғɪʟᴇ ᴛᴏ ᴀɴʏ ᴄʜᴀᴛ. \n\n**••If Any Problem To Open File Please Message In Here👇👇**",
                 quote=True,
                 disable_web_page_preview=True,
@@ -226,15 +226,15 @@ async def start(client, message):
             
             await asyncio.sleep(AUTO_DELETE_TIME)
             await msg.delete()
-            await k.delete()
-            await g.edit_text("<b>Your File/Video is successfully deleted!!! You Want Again [Get Here](https://t.me/hd99flix).</b>")
+            await g.delete()
+            await k.edit_text("<b>Your File/Video is successfully deleted!!! You Want Again [Get Here](https://t.me/hd99flix).</b>")
             await m.edit_text("<b>❤️‍🔥.</b>")
             await asyncio.sleep(1)
             await m.delete()
             return
         except:
             pass
-        return await message.reply('No such file exist.')
+        return await message.reply('<b>Your File/Video is successfully deleted!!! You Want Again [Get Here](https://t.me/hd99flix).</b>')
 
 
     
