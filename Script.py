@@ -6,10 +6,11 @@ class script(object):
 
 
     
-    CAPTION = """<b>📂 ᴍᴏᴠɪᴇ ғɪʟᴇ ɪs ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ @hd99flix 
+    CAPTION = """<b>📂 ᴍᴏᴠɪᴇ ғɪʟᴇ ɪs ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ ʜᴅ𝟿𝟿ғʟɪx (https://t.me/hd99flix) 
 
 ғɪʟᴇsɪᴢᴇ ⚙️: {file_size} 
 
+⚠️ ❌👉 Ye file copyright ki wajh se❗15 minute me delete❗ho jayegi. Islye file ko kahi forward kr lijiye ⚠️ ❌
 </b>""" 
 
 
