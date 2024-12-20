@@ -6,7 +6,7 @@ class script(object):
 
 
     
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {f_caption}
+    CAPTION = """<b>📂 ᴍᴏᴠɪᴇ ғɪʟᴇ ɪs ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ @hd99flix 
 
 ғɪʟᴇsɪᴢᴇ ⚙️: {file_size} 
 
