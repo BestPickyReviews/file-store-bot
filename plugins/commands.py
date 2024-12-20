@@ -230,7 +230,6 @@ async def start(client, message):
             await asyncio.sleep(1)
             await m.delete()
             return
-            return
         except:
             pass
         return await message.reply('No such file exist.')
