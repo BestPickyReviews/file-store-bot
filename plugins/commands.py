@@ -209,9 +209,11 @@ async def start(client, message):
                 except:
                     return
             
-            await msg.edit_caption(f_caption)         
+            await msg.edit_caption(f_caption) 
+            k = await msg.reply(f"<center><b><u>❗️❗️❗️IMPORTANT NOTE❗️️❗️❗️</u></b></center>\n\n<b>This Movie File/Video will be deleted in </b><b><u>{AUTO_DELETE} mins</u>. 🫥 </b>(Due to Copyright Issues)\n\n<b>⚠️ ❌👉 Ye file copyright ki wajh se❗15 minute me delete❗ho jayegi. Islye file ko kahi forward kr lijiye ⚠️ ❌</b>",quote=True)
+            
             g = await msg.reply_text(
-                text=f"**••If Any Problem To Open File Please Message In Here👇👇**",
+                text=f"<center><b><u>❗️❗️❗️IMPORTANT NOTE❗️️❗️❗️</u></b></center>\n\n<b>ᴛʜɪs ᴍᴏᴠɪᴇ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ </b><b><u>{AUTO_DELETE} mins</u>. 🫥 </b> (ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs) ᴘʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜɪs ғɪʟᴇ ᴛᴏ ᴀɴʏ ᴄʜᴀᴛ. \n\n\n\n**••If Any Problem To Open File Please Message In Here👇👇**",
                 quote=True,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
@@ -221,11 +223,11 @@ async def start(client, message):
                     ]
                 )
             ) 
-            k = await msg.reply(f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\n<b>This Movie File/Video will be deleted in <b/><b><u>{AUTO_DELETE} mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b>⚠️ ❌👉 Ye file copyright ki wajh se❗15 minute me delete❗ho jayegi. Islye file ko kahi forward kr lijiye ⚠️ ❌</b>",quote=True)
+            
             await asyncio.sleep(AUTO_DELETE_TIME)
             await msg.delete()
-            await g.delete()
-            await k.edit_text("<b>Your File/Video is successfully deleted!!! You Want Again [Get Here](https://t.me/HDSX_Media_xyz).</b>")
+            await k.delete()
+            await g.edit_text("<b>Your File/Video is successfully deleted!!! You Want Again [Get Here](https://t.me/hd99flix).</b>")
             await m.edit_text("<b>❤️‍🔥.</b>")
             await asyncio.sleep(1)
             await m.delete()
