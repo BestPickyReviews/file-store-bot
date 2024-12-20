@@ -1,5 +1,3 @@
-other
-
 import os
 import logging
 import random
