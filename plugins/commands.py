@@ -219,7 +219,7 @@ async def start(client, message):
             await m.edit_text("<b>❤️‍🔥.</b>")
             await asyncio.sleep(1)
             await m.delete()
-            return
+            
 
             
             g = await msg.reply_text(
@@ -233,7 +233,8 @@ async def start(client, message):
                     ]
                 )
             ) 
-           
+            
+            return
         except:
             pass
         return await message.reply('No such file exist.')
