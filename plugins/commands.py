@@ -220,8 +220,9 @@ async def start(client, message):
                          InlineKeyboardButton('😊 Support Team 🖥️', url="https://t.me/HdsxSupportTeam_Bot")]
                     ]
                 )
-            ) 
-             k = await msg.reply(f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>⚠️ ❌👉 Ye file copyright ki wajh se❗15 minute me delete❗ho jayegi. Islye file ko kahi forward kr lijiye ⚠️ ❌</i></b>",quote=True)
+            )
+             k = await msg.reply(f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>⚠️ ❌👉 Ye file copyright ki wajh se❗15 minute me delete❗ho jayegi. Islye file ko kahi forward kr lijiye ⚠️ ❌</i>\n\n\n\nYdi movie file open krne me koi dikkat ho to,hme message kre 👇👇 
+                    </b>",quote=True)
             await asyncio.sleep(AUTO_DELETE_TIME)
             await msg.delete()
             await g.delete()
@@ -230,6 +231,7 @@ async def start(client, message):
             await asyncio.sleep(1)
             await m.delete()
             return
+            
         except:
             pass
         return await message.reply('No such file exist.')
