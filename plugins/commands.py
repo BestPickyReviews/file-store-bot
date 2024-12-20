@@ -211,8 +211,9 @@ async def start(client, message):
             
             await msg.edit_caption(f_caption) 
             
+            
             g = await msg.reply_text(
-                text=f"<b><u style="display: block; text-align: center;">❗️❗️❗️❗️IMPORTANT NOTE❗️️❗️❗️❗️</u></b>\n\n<b>ᴛʜɪs ᴍᴏᴠɪᴇ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ </b><b><u>{AUTO_DELETE} mins</u>. 🫥 </b> (ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs) ᴘʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜɪs ғɪʟᴇ ᴛᴏ ᴀɴʏ ᴄʜᴀᴛ. \n\n**••If Any Problem To Open File Please Message In Here👇👇**",
+                text=f"<b><u>❗️❗️❗️❗️IMPORTANT NOTE❗️️❗️❗️❗️</u></b>\n\n<b>ᴛʜɪs ᴍᴏᴠɪᴇ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ </b><b><u>{AUTO_DELETE} mins</u>. 🫥 </b> (ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs) ᴘʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜɪs ғɪʟᴇ ᴛᴏ ᴀɴʏ ᴄʜᴀᴛ. \n\n**••If Any Problem To Open File Please Message In Here👇👇**",
                 quote=True,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
