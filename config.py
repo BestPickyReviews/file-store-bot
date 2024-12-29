@@ -81,6 +81,6 @@ class Var(object):
     FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
     HAS_SSL=bool(getenv('HAS_SSL',False))
     if HAS_SSL:
-        URL = "https://file-store-bot-1-hdid.onrender.com"
+        URL = "file-store-bot-a2sh.onrender.com/"
     else:
-        URL = "https://file-store-bot-1-hdid.onrender.com"
+        URL = "file-store-bot-a2sh.onrender.com/"
