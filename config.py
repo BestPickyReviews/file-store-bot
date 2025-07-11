@@ -27,15 +27,15 @@ API_HASH = environ.get("API_HASH", "585f48485cf7419844c398d5da226545")
 ADMINS = int(environ.get("ADMINS", "5207748612"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
-CDB_NAME = environ.get("CDB_NAME", "")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://minuk7859:minu123lv@cluster0.hcw9cni.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+CDB_NAME = environ.get("CDB_NAME", "Cluster0")
 DB_URI = environ.get("DB_URI", "mongodb+srv://Krlove:kumar12321@cluster0.xpctw8r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "HdsxFileStoreBot") # your bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Hd99flixFilestoreBot") # your bot username without @
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/66604e5911df5a0c43ffa.jpg https://graph.org/file/f5a26ac21b060d5787ea3.jpg https://graph.org/file/30539d8f1fc92423d6a19.jpg https://graph.org/file/701ff72fb43d85e073f03.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
